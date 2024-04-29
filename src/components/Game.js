@@ -62,9 +62,9 @@ const Game = () => {
       <div className="result">
         {userChoice && computerChoice && (
           <>
-            <p>انتخاب من: {userChoice}</p>
-            <p>انتخاب کامپیوتر: {computerChoice}</p>
-            <p>{result}</p>
+            <h3>انتخاب من: {userChoice}</h3>
+            <h3>انتخاب کامپیوتر: {computerChoice}</h3>
+            <h1>{result}</h1>
             <p>تعداد برد من: {numOfUserWins}</p>
             <p>تعداد برد کامپیوتر: {numOfComputerWins}</p>
             <p>تعداد مساوی: {numOfTies}</p>
